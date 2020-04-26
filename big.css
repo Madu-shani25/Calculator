@@ -1,0 +1,97 @@
+body{
+    font-family: sans-serif;
+    background-color:darkorange;
+}
+body h1{
+    text-align: center;
+}
+content{
+    width: 1000px;
+    height:500px;
+    background-image: linear-gradient(rgba(0,0,0,0.3),rgba(0,0,0,0.3))url(beach.jpg);
+    margin: 20px auto;
+}
+.cal{
+   width: 320px;
+   height: 520px;
+   background-color: gray;
+   margin:0 auto;
+   top: 20px;
+   position: relative;
+   border-radius: 5px;
+   background-origin: 0 4px 8px 0 rgba(0,0,0,0.2) 0 6px 20px 0 rgba(0,0,0,0.19);
+}
+.result{
+    height: 140px;
+}
+.keys{
+    height: 400px;
+}
+.history{
+    text-align: right;
+    height: 20px;
+    margin: 0 20px;
+    padding-top: 10px;
+    font-size: 20px;
+    
+}
+.output{
+    text-align: right;
+    height: 25px;
+    font-size: 25px;
+    margin:0 20px ;
+    padding-top: 24px ;
+    font-weight: bold;
+}
+
+.controller, .number, .empty{
+    float: left;
+    width: 50px;
+    height: 40px;
+    margin: 12px;
+    border-radius: 45%;
+    border-width: 0;
+    font-weight: bold;
+    font-size: 17px;
+}
+
+.number, .empty{
+    background-color:grey;
+}
+
+.number, .controller{
+    cursor: auto;
+}
+.controller:focus, .number:focus, .empty:focus{
+    outline: 0;
+}
+.controller:active, .number:active{
+    font-size: 40px;
+}
+button:nth-child(1){
+    background-color: rgb(51, 49, 48);
+}
+button:nth-child(2){
+    background-color: rgb(51, 49, 48);
+}
+button:nth-child(3){
+    background-color: rgb(51, 49, 48);
+}
+button:nth-child(4){
+    background-color: rgb(137, 69, 224);
+}
+button:nth-child(8){
+    background-color: rgb(53, 172, 241);
+}
+button:nth-child(12){
+    background-color: rgb(202, 38, 134);
+}
+
+
+button:nth-child(16){
+    background-color: rgb(216, 54, 54);
+}
+button:nth-child(20){
+    background-color: rgb(223, 202, 14);
+}
+
